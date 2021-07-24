@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <title>Planta Alta</title>
+  </head>
+  <body>
+
+<!--Barra de Navegacion pensaba hacer que cuando baje el menu centralice los links, pero no pude-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"> <img src="Assets/Logo/monograma.png" width="30"> </a>
+    <img src="Assets/Logo/logo-horizontal.png" width="175">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   <div class="collapse navbar-collapse me-auto" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+         <li class="nav-item">
+          <a class="nav-link active me-3" aria-current="page" href="#nos">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active me-3" aria-current="page" href="#menu">Menú</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active me-3" aria-current="page" href="#footer">Realizá tu pedido</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Api de WhatsApp -->
+<div class="wpp">
+<a href="https://api.whatsapp.com/send?phone=5492995061577"><i class="fab fa-whatsapp-square"></i></a>
+</div>
+
+
+
+
+<!-- Carousel con tres imagenes-->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Assets/Images/foto-92.jpg" class="d-block w-100" alt="Foto de dos pintas">
+      <div class="carousel-caption d-md-block">
+        <h5 class="tituloport1"><strong>Disfruta de nuestra amplia variedad en cervezas artesanales</strong></h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Assets/Images/foto-91.jpg" class="d-block w-100" alt="Foto de growlers">
+      <div class="carousel-caption d-md-block">
+        <h5 class="tituloport2"><strong>Recargá tu Growler o Pet de Litro</strong></h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Assets/Images/foto-93.jpg" class="d-block w-100" alt="Foto de caja de pizzas">
+      <div class="carousel-caption d-md-block">
+         <h5 class="tituloport3"><strong>También contamos con servicios de delivery & take away</strong></h5>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+
+   <!-- Descripcion del bar-->
+   <div class="container-fluid cards_nosotros">
+    <h2 class="nos" id="nos"> Nosotros </h2>
+   <div class="card-group">
+  <div class="card" id="card2">
+    <div class="card-body">
+       <h3 class="card-title titulo_port2"><i class="fas fa-beer"></i>Nuestras Cervezas</h3>
+      <p class="card-text word">Tenemos una amplia variedad de estilos en cervezas artesanales de la región. Desde las más clasicas como Scotish, IPA, APA; hasta las mas sofisticadas tales como cervezas ácidas o negras de un gran cuerpo y variedad de aromas </p>
+    </div>
+  </div>
+  <div class="card" id="card2">
+    <div class="card-body">
+      <h3 class="card-title titulo_port2"> <i class="fas fa-utensils"></i>Platos</h3>
+       <p class="word">Te invitamos a que revises nuestro menú de comidas, donde podrás encontrar variedades en hamburguesas, pizzas , empanadas y las clásicas papas, las cuales son indispensables a la hora de acompañar una buena cerveza </p>
+    </div>
+  </div>
+  <div class="card" id="card2">
+    <div class="card-body">
+      <h3 class="card-title titulo_port2"><i class="fas fa-table-tennis"></i>Ping-Pong</h3>
+      <p class="word">Nuestras mesas de ping-pong son el broche de oro para una noche ideal entre amigos a pura diversión </p>
+    </div>
+  </div>
+</div>
+<span class="form">
+    <a class="btn btn-primary" href="formulario.html" role="button" id="form"> Dejanos tu opinión </a> </span>
+</div>
+
+
+
+
+
+
+
+
+
+   <!--<div class="container-fluid">
+   <div class="row m-4"> 
+    <h2 class="nos" id="nos"> Nosotros </h2>
+    <div class="col-4">
+    <h3 class="titulo_port2"><i class="fas fa-beer"></i>Nuestras Cervezas</h3>
+    <p class="word">Tenemos una amplia variedad de estilos en cervezas artesanales de la región. Desde las más clasicas como Scotish, IPA, APA; hasta las mas sofisticadas tales como cervezas ácidas o negras de un gran cuerpo y variedad de aromas </p>
+  </div>
+  <div class="col-4">
+    <h3 class="titulo_port2"> <i class="fas fa-utensils"></i>Platos</h3>
+    <p class="word">Te invitamos a que revises nuestro menú de comidas, donde podrás encontrar variedades en hamburguesas, pizzas , empanadas y las clásicas papas, las cuales son indispensables a la hora de acompañar una buena cerveza </p>
+  </div>
+  <div class="col-4">
+    <h3 class="titulo_port2"><i class="fas fa-table-tennis"></i>Ping-Pong</h3>
+    <p class="word">Nuestras mesas de ping-pong son el broche de oro para una noche ideal entre amigos a pura diversión </p>
+  </div>
+    <span class="form">
+    <a class="btn btn-primary" href="formulario.html" role="button"> Dejanos tu opinión </a> </span>
+   </div>
+  </div>-->
+
+
+
+<!-- Este es el menu de mi pagina. La idea es poner 3 cards con un modal dentro del cual figure la lista de comidas-->
+<div class="container-fluid mcards">
+<h2 class="menu_css" id="menu">Menú</h2>
+<div class="row row-cols-1 row-cols-md-3 g-4 cards">
+<!-- Hamburguesas -->
+ <div class="col">
+    <div class="card h-100">
+      <img src="Assets/Images/foto30.jpg" class="card-img-top" alt="Foto de hamburguesa">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+      Hamburguesas/Sandwiches
+      </button>
+      <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Hamburguesas / Sandwiches </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ul> 
+          <li>HAMBURGUESA COMPLETA $ 470</li>
+          (Medallón de carne, lechuga, tomate, cheddar, huevo frito)
+          <li>HAMBURGUESA PLANTA   $ 550</li>
+          (Medallón de carne, lechuga, tomate, cheddar, salsa palta, pepinillo, cebolla, morrón caramelizado y panceta)
+          <li>HAMBURGUESA RESIDENTE $ 530</li>
+          (Medallón de carne, rucula, tomate, cheddar, mayonesa casera, salsa palta y berenjena al escabeche) 
+          <li>SANDWICH DE BONDIOLA $ 600</li>
+          (Bondiola, lechuga, tomate, mozza, salsa palta, cebolla caramelizada y morrón asado) 
+          <li>SANDWICH RED VEGGIE $ 480</li>
+          (Medallón de remolacha, ajo, zanahoria, morrón)
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+  <!-- Pizzas -->
+  <div class="col">
+    <div class="card h-100">
+      <img src="Assets/Images/foto21.jpg" class="card-img-top" alt="Foto de pizza">
+       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+      Pizzas
+      </button>
+      <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel"> Pizzas </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ul> 
+          <li>MUZARELLA $ 500</li>
+          <li>VERDURAS (Verduras salteadas con queso) $ 600</li> 
+          <li>VEGANA (Verduras salteadas) $ 550</li> 
+          <li>RUCULA (Mozza, cherry, rucula, jamon crudo) $ 700</li>  
+          <li>TOMATE (Tomate confitado, mozza, albahaca) $ 600</li>
+          <li>NAPOLITANA (Mozza, tomate, ajo) $ 600</li> 
+          <li>ESPECIAL $ (Mozza, jamon cocido, huevo y morrón) $ 600</li>  
+          <li>PLANTA (Panceta, huevo, verdeo, mozza) $ 700</li>  
+          <li>FUGAZZETA (Cebolla y mozza) $ 650</li>  
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+ <!-- Papas/Empanadas -->
+  <div class="col">
+    <div class="card h-100">
+      <img src="Assets/Images/foto35.jpg"class="card-img-top" alt="Foto de papas">
+       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+      Papas/Empanadas
+      </button>
+      <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel"> Papas/Empanadas </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ul> 
+          <li>EMPANADAS DE JAMON Y QUESO (doc) $ 700</li>
+          <li>EMPANADAS DE CAPRESSE (doc) $ 700</li> 
+          <li>EMPANADAS DE CARNE (doc) $ 700</li> 
+          <li>EMPANADAS DE POLLO (doc) $ 700</li>  
+          <li>PAPAS SIMPLES $ 300</li>
+          <li>PAPAS PLANTA (Panceta, barbacoa, cheddar, huevo a la plancha y verdeo) $ 450</li>
+          <li>PAPAS VIENNA (Barbacoa y salchichas) $380</li>  
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Este seria el footer de la pagina que contiene datos del bar y ubicacion-->
+<div class="container-fluid" id="footer">
+<div class="row">
+ <h2 class="contacto"> Realizá tu pedido </h2>
+  <div class="col foot"> 
+    <p> Lunes a Sábado de 19:00 a 00:30hs </p>
+    <p> Delivery y Reservas: 299-506-1577 </p> 
+    <img src="Assets/Logo/monogramablanco.png" width="100" height="100" class="logo"> 
+    <p> Juan B.Justo 74, Plottier </p>
+<!-- Aca hice otra division con la clase d-flex, de esta forma los iconos se acomodaron bien y se elimino una
+  especie de "rayita" que tenia el logo de instagram. -->
+    <div class="d-flex">
+    <a href="https://web.facebook.com/Planta-alta-1028811377312151/">
+      <i class="fab fa-facebook-square me-3 fs-2"></i> </a>
+      <a href="https://www.instagram.com/paltaplott/">
+      <i class="fab fa-instagram me-3 fs-2"></i> </a>
+    </div>
+</div>  
+<div class="col mapa"> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12410.928035327539!2d-68.2247747!3d-38.9529503!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xada194f4735e828e!2sPlanta%20Alta!5e0!3m2!1ses!2sar!4v1624969977184!5m2!1ses!2sar" width="400" height="300" allowfullscreen="" loading="lazy" class="rounded"></iframe> </div>
+
+  </div>
+
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="Scripts/javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
