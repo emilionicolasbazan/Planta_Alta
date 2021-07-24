@@ -1,0 +1,62 @@
+
+
+
+form {
+	width: 400px;
+	background: #24303c;
+	padding: 30px;
+	margin: auto;
+	margin-top: 60px;
+	border-radius: 4px;
+	font-family: 'PT Sans', sans-serif;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+}
+
+form , h4 {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+h4 {
+	text-align: center;
+}
+
+.controls {
+	width: 100%;
+	background: #24303c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	color: white;
+	text-align: center;
+
+
+}
+
+
+
+form .botons {
+	width: 100%;
+	background: #1f53c5;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+}
+
+body {
+	background: radial-gradient(white, #233d3a);
+
+}
+
+
+label {
+	font-size: 18px;
+}
+
+

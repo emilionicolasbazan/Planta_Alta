@@ -1,0 +1,262 @@
+html , .col , .container-fluid , h2  , h3 , p , h5 , button {
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+/* Estilos en la nav-bar*/
+a {
+	font-size: 25px;
+}
+
+.nav-link:hover {
+	background: linear-gradient(60deg, white, #233d3a);
+	border-radius: 10px 10px 10px 10px;
+}
+
+.navbar {
+	border-bottom: 3px solid black;
+}
+
+/* Estilos en el centro de la pagina */
+
+/* Con float: right; o display: flex; + justify-content: flex-end; Yo podia
+mandar el logo a la derecha, el problema es que position: fixed; es lo contrario 
+a un comportamiento fluido flex, por eso no los pude usar*/
+
+
+.wpp {
+	position: fixed;
+	top: 50%;
+	right: 5%;
+	z-index: 30;
+	margin-left: 8px;
+}
+
+.fa-whatsapp-square {
+	color: #00bb2d;
+	font-size: 50px;
+}
+
+
+h2 {
+	text-align: center;
+	color: white;
+	font-size: 3rem;
+}
+
+h3 {
+	margin-top: 5px;
+}
+
+.nos {
+	color:#233d3a;
+}
+
+
+.tituloport1 , .tituloport2 , .tituloport3 {
+	margin-bottom: 45rem;
+	font-size: 30px;
+}
+
+.tituloport1 , .tituloport3 {
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+
+.tituloport2  {
+	color: black;
+	text-shadow: 1px 1px 1px white;
+}
+
+.titulo_port2 {
+	font-size: 30px;
+	margin-top: 10px;
+
+}
+
+.cards_nosotros {
+	margin-top: 20px;
+}
+
+#card2 {
+	margin-right: 20px;
+	background-color: white;
+	box-shadow: none;
+	border: none;
+
+}
+
+
+.desc {
+	margin-top: 5px;
+}
+
+.fa-beer , .fa-utensils , .fa-table-tennis {
+	color: #233d3a;
+	margin-right: 10px;
+}
+
+.word {
+	font-size: 20px;
+	color: black;
+	text-align: justify;
+	letter-spacing: 1px;
+	margin-top: 15px;
+}
+
+
+.form {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+
+.cards , .mcards {
+	background-color: white;
+}
+
+.card {
+	box-shadow: 3px 3px 1px 1px;
+	padding: 3px;
+	background-color: #233d3a;
+}
+
+.carousel {
+	box-shadow: 3px 3px 1px 1px;
+	border: 1px solid black;
+}
+
+.mcards {
+	margin-bottom: 20px;
+}
+
+body {
+	background-color: white;
+}
+
+
+.modal-body {
+	background-color: #233d3a;
+	color: black;
+}
+
+.menu_css {
+	color: black;
+}
+
+.modal-header , .modal-footer {
+	background-color: black;
+	text-align: center;
+}
+
+.modal-title {
+	color: white;
+}
+
+
+.btn {
+	background-color: #2f342f;
+	border: none;
+}
+
+.btn:hover , .btn:focus {
+	background-color: #828981;
+}
+
+li {
+	color: white;
+}
+
+
+
+
+/*Estilos en el footer*/
+
+i:hover {
+	color: #233d3a;
+}
+
+i {
+	color: white;
+}
+
+p {
+	color: white;
+	font-size: 25px;
+}
+
+.contacto { 
+	z-index: 20;
+ }
+
+.foot {
+	text-align: center;
+}
+
+.d-flex {
+	justify-content: center;
+}
+
+#footer {
+	background-color: #000000;
+}
+
+.mapa {
+	max-width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+
+/* Ajustes para resoluciones inferiores a 760 px ancho */
+
+@media screen and (max-width: 760px) {
+	.fa-whatsapp-square {
+	      font-size: 40px;
+	      position: fixed;
+	      top: 30%;
+	      right: 5%;
+	      
+
+	}
+ 
+}
+
+/* Ajustes para resoluciones inferiores a 780 px ancho */
+
+@media screen and (max-width: 780px) {
+	.tituloport1 , .tituloport2 , .tituloport3 {
+		font-size: 15px;
+		margin-bottom: 9rem;
+	}
+ 
+}
+
+/* Ajustes para resoluciones inferiores a 500 px ancho */
+
+@media screen and (max-width: 500px) {
+	.fa-whatsapp-square {
+	      font-size: 30px;
+	}
+ 
+}
+
+/* Ajustes para resoluciones inferiores a 420 px ancho */
+
+@media screen and (max-width: 420px) {
+	 
+    iframe {
+    	width: 300px;
+
+    }
+
+    p {
+    	font-size: 15px;
+    }
+
+    .logo {
+    	width: 60px;
+    	height: 60px;
+    }
+
